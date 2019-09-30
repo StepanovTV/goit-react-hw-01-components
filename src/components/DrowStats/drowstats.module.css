@@ -1,0 +1,37 @@
+.title {
+  font-size: 1.2rem;
+  font-family: Geneva, Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.statList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.item {
+  padding: 10px;
+  flex-basis: 76px;
+  font-family: Geneva, Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+.label {
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.percentage {
+  display: block;
+  font-size: 24px;
+  font-weight: 200;
+}

@@ -1,0 +1,50 @@
+.frendlist {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.item {
+  display: flex;
+  max-width: 300px;
+  align-items: center;
+  min-height: 80px;
+  background-color: #fff;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.online,
+.offline {
+  display: block;
+  width: 10px;
+  height: 10px;
+  background-color: #ccc;
+  border-radius: 50%;
+  margin-right: 20px;
+  border: 1px solid #ccc;
+}
+
+.online {
+  background-color: green;
+}
+
+.offline {
+  background-color: red;
+}
+
+.avatar {
+  width: 60px;
+  height: 60px;
+  display: block;
+  border-radius: 4px;
+  margin-right: 20px;
+}
+
+.name {
+  font-family: Geneva, Arial, Helvetica, sans-serif;
+  color: black;
+  font-size: 22px;
+}
